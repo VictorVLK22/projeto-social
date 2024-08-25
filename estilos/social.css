@@ -7,13 +7,14 @@
     
 }
 
-::--webkit-scrollbar {
+::--webkit-scrollbar {/*Não funcionou, tive que usar o width em 100% para tirar a barra de rolagem horizontal*/
     width: 0px;
     height: 0px;
 }
 
 img{
-    width: 100vw;
+    width: 100%;
+    
 }
 
 a{
